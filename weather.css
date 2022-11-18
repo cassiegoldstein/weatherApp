@@ -1,0 +1,128 @@
+.weather {
+    margin-top: 15%;
+    height: 400px;
+    border-radius: 30px;
+    width: 50%;
+}
+
+.date {
+    margin-top: 20px;
+}
+
+.day {
+    margin-top: 20px;
+}
+
+.place {
+    margin-top: 20px;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.day {
+    font-size: 25px;
+}
+
+.date {
+    font-size: 25px;
+}
+
+.place {
+    font-size: 40px;
+}
+
+.temp {
+    font-size: 50px;
+}
+
+.summary {
+    font-size: 20px;
+}
+
+input[type="text"] {
+    background-color: #FFFFFF;
+}
+
+.bt {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 0.75;
+    margin: 0;
+    min-height: 2rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.bt:hover,
+.bt:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.bt:hover {
+    transform: translateY(-1px);
+}
+
+.bt:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.todayText {
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.today {
+    font-size: 20px;
+    text-align: left;
+}
+
+.futureTemp {
+    font-size: 20px;
+    text-align: left;
+
+
+}
+
+.futureDates {
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.tempContainer {
+    margin-left: 245px;
+}
